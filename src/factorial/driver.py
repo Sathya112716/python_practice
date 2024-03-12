@@ -1,4 +1,6 @@
 from util import factorial
+import logging
+
 number=int(input(" enter"))
 result=factorial(number)
-print(result)
+logging.debug(result)
