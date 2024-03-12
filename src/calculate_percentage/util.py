@@ -1,3 +1,6 @@
+import logging
+
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 def cal_percent(input):
     element_count = {}
     for element in input:
